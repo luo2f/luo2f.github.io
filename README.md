@@ -1,6 +1,6 @@
 <div align="center">
 
-  # Chirpy Jekyll Theme
+  # ChaosFlorences jekyll fork
 
   A minimal, responsive, and feature-rich Jekyll theme for technical writing.
 
