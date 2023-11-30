@@ -20,37 +20,37 @@ toc: false
 
 一、必修（10篇）
 
-1.[《子路、曾皙、冉有、公西华侍坐》（《论语》）](https://luo2f.github.io/pages/Cnbanksz.html))
+1.[《子路、曾皙、冉有、公西华侍坐》（《论语》）](https://luo2f.github.io/Cnbank/pages/Cnbanksz.html)
 
-2.[《劝学》（《荀子》）](https://luo2f.github.io/pages/Cnbankqs.html)
+2.[《劝学》（《荀子》）](https://luo2f.github.io/Cnbank/pages/Cnbankqs.html)
 
-3.[《谏逐客书》（李斯）](https://luo2f.github.io/pages/Cnbankjzks.html))
+3.[《谏逐客书》（李斯）](https://luo2f.github.io/Cnbank/pages/Cnbankjzks.html)
 
-4.[《谏太宗十思疏》（魏征）](https://luo2f.github.io/pages/Cnbankjtzs.html)
+4.[《谏太宗十思疏》（魏征）](https://luo2f.github.io/Cnbank/pages/Cnbankjtzs.html)
 
-5.[《师说》（韩愈）](https://luo2f.github.io/pages/Cnbankss.html)
+5.[《师说》（韩愈）](https://luo2f.github.io/Cnbank/pages/Cnbankss.html)
 
-6.[《阿房宫赋》（杜牧）](https://luo2f.github.io/pages/Cnbankapgf.html)
+6.[《阿房宫赋》（杜牧）](https://luo2f.github.io/Cnbank/pages/Cnbankapgf.html)
 
-7.[《六国论》（苏洵）](https://luo2f.github.io/pages/Cnbanklgl.html)
+7.[《六国论》（苏洵）](https://luo2f.github.io/Cnbank/pages/Cnbanklgl.html)
 
-8.[《答司马谏议书》（王安石）](https://luo2f.github.io/pages/Cnbankdsmj.html))
+8.[《答司马谏议书》（王安石）](https://luo2f.github.io/Cnbank/pages/Cnbankdsmj.html)
 
-9.[《赤壁赋》（苏轼）](https://luo2f.github.io/pages/Cnbankcbf.html)
+9.[《赤壁赋》（苏轼）](https://luo2f.github.io/Cnbank/pages/Cnbankcbf.html)
 
-10.[《登泰山记》（姚鼐）](https://luo2f.github.io/pages/Cnbankdtsj.html))
+10.[《登泰山记》（姚鼐）](https://luo2f.github.io/Cnbank/pages/Cnbankdtsj.html)
 
 二、选择性必修（13篇）
 
 1.《老子》四章
 
-2.[《论语》十二章》](https://luo2f.github.io/pages/Cnbankly.html)
+2.[《论语》十二章》](https://luo2f.github.io/Cnbank/pages/Cnbankly.html)
 
 3.《大学》（《礼记》）
 
 4.《逍遥游》（《庄子》）
 
-5,[《屈原列传节选》（司马迁）](https://luo2f.github.io/pages/Cnbankqylz.html)
+5,[《屈原列传节选》（司马迁）](https://luo2f.github.io/Cnbank/pages/Cnbankqylz.html)
 
 6,《过秦论》（上）（贾谊）
 
@@ -171,5 +171,5 @@ toc: false
 
 38.《扬州慢・淮左名都》（姜夔）
 
-![MLZ_crr](https://github.com/luo2f/luo2f.github.io/blob/master/pics/mmexport1683430042499.jpg)
-![MLZ_ctr2](https://github.com/luo2f/luo2f.github.io/blob/master/pics/mmexport1683432141898.jpg)
+![MLZ_crr](/Cnbank/pics/mmexport1683430042499.jpg)
+![MLZ_ctr2](/Cnbank/pics/mmexport1683432141898.jpg)
