@@ -5,6 +5,7 @@ date: 2000-01-01
 Author: Florence
 tags: [ Poem , 学习 , 语文 ]
 comments: true
+categories: [Classic Chinese]
 toc: false
 ---
 

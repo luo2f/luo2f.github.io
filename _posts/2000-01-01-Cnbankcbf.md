@@ -2,6 +2,7 @@
 layout: post
 title: 赤壁赋
 date: 2000-01-01
+categories: [Classic Chinese]
 Author: 王安石
 tags: [ 语文 , 学习 , Chinese ]
 ---

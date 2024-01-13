@@ -101,6 +101,14 @@ comments:
     reactions_enabled: # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 6edc0cdb0c0c2d18b710                            #生成的clientID
+  clientSecret: b7a8ca62d11872c18e71eb959dd9674d555a298f    #生成的clientSecret
+  repo: luo2f.github.io.comment    #仓库名称
+  owner: luo2f
+  
 assets:
   self_host:
     enabled: # boolean, keep empty means false
