@@ -3,8 +3,9 @@ layout: post
 title: 高中语文古文索引（MLZ版）
 date: 2023-05-07
 Author: Florence
-tags: [ 学习 , 语文 ]
+tags: [ 学习 , 语文 , Poem , Chinese]
 comments: true
+categories: [Classic Chinese]
 toc: false
 ---
 
@@ -20,37 +21,37 @@ toc: false
 
 一、必修（10篇）
 
-1.[《子路、曾皙、冉有、公西华侍坐》（《论语》）](https://luo2f.github.io/Cnbank/pages/Cnbanksz.html)
+1.[《子路、曾皙、冉有、公西华侍坐》（《论语》）](https://cfbos.ignorelist.com/posts/Cnbanksz)
 
-2.[《劝学》（《荀子》）](https://luo2f.github.io/Cnbank/pages/Cnbankqs.html)
+2.[《劝学》（《荀子》）](https://cfbos.ignorelist.com/posts/Cnbankqs)
 
-3.[《谏逐客书》（李斯）](https://luo2f.github.io/Cnbank/pages/Cnbankjzks.html)
+3.[《谏逐客书》（李斯）](https://cfbos.ignorelist.com/posts/Cnbankjzks)
 
-4.[《谏太宗十思疏》（魏征）](https://luo2f.github.io/Cnbank/pages/Cnbankjtzs.html)
+4.[《谏太宗十思疏》（魏征）](https://cfbos.ignorelist.com/posts/Cnbankjtzs)
 
-5.[《师说》（韩愈）](https://luo2f.github.io/Cnbank/pages/Cnbankss.html)
+5.[《师说》（韩愈）](https://cfbos.ignorelist.com/posts/Cnbankss)
 
-6.[《阿房宫赋》（杜牧）](https://luo2f.github.io/Cnbank/pages/Cnbankapgf.html)
+6.[《阿房宫赋》（杜牧）](https://cfbos.ignorelist.com/posts/Cnbankapgf)
 
-7.[《六国论》（苏洵）](https://luo2f.github.io/Cnbank/pages/Cnbanklgl.html)
+7.[《六国论》（苏洵）](https://cfbos.ignorelist.com/posts/Cnbanklgl)
 
-8.[《答司马谏议书》（王安石）](https://luo2f.github.io/Cnbank/pages/Cnbankdsmj.html)
+8.[《答司马谏议书》（王安石）](https://cfbos.ignorelist.com/posts/Cnbankdsmj)
 
-9.[《赤壁赋》（苏轼）](https://luo2f.github.io/Cnbank/pages/Cnbankcbf.html)
+9.[《赤壁赋》（苏轼）](https://cfbos.ignorelist.com/posts/Cnbankcbf)
 
-10.[《登泰山记》（姚鼐）](https://luo2f.github.io/Cnbank/pages/Cnbankdtsj.html)
+10.[《登泰山记》（姚鼐）](https://cfbos.ignorelist.com/posts/Cnbankdtsj)
 
 二、选择性必修（13篇）
 
 1.《老子》四章
 
-2.[《论语》十二章》](https://luo2f.github.io/Cnbank/pages/Cnbankly.html)
+2.[《论语》十二章》](https://cfbos.ignorelist.com/posts/Cnbankly)
 
 3.《大学》（《礼记》）
 
 4.《逍遥游》（《庄子》）
 
-5,[《屈原列传节选》（司马迁）](https://luo2f.github.io/Cnbank/pages/Cnbankqylz.html)
+5,[《屈原列传节选》（司马迁）](https://cfbos.ignorelist.com/posts/Cnbankqylz)
 
 6,《过秦论》（上）（贾谊）
 

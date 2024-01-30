@@ -5,6 +5,7 @@ date: 2000-01-01
 Author: 李斯〔先秦〕
 tags: [ 语文 , 学习 , Chinese ]
 categories: [Classic Chinese]
+bin: true
 ---
 
 谏逐客书

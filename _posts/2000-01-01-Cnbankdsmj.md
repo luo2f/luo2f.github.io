@@ -6,6 +6,7 @@ Author: 王安石
 tags: [ 语文 , 学习 , Chinese ]
 comments: true
 categories: [Classic Chinese]
+bin: true
 ---
 
 答司马谏议书

@@ -5,6 +5,7 @@ date: 2000-01-01
 Author: 王安石
 tags: [ 语文 , 学习 , Chinese ]
 categories: [Classic Chinese]
+bin: true
 ---
 
 

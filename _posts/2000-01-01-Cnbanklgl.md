@@ -6,6 +6,7 @@ Author: Florence
 tags: [ Poem , 学习 , 语文 ]
 comments: true
 categories: [Classic Chinese]
+bin: true
 toc: false
 ---
 

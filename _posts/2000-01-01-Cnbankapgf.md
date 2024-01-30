@@ -7,6 +7,7 @@ tags: [ Poem , 学习 , 语文 ]
 comments: true
 toc: false
 categories: [Classic Chinese]
+bin: true
 ---
 
 阿房宫赋
