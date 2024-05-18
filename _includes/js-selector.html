@@ -2,9 +2,7 @@
 
 <!-- commons -->
 
-{%- capture urls -%}
-  {{ site.data.origin[type].bootstrap.js }},{{ site.data.origin[type].search.js }}
-{%- endcapture -%}
+{% assign urls = site.data.origin[type].search.js %}
 
 <!-- layout specified -->
 
@@ -65,7 +63,7 @@
 {% endcase %}
 
 {% capture script %}{{ js_dist }}{{ js }}.min.js{% endcapture %}
-<script defer src="{{ script | relative_url }}"></script>
+<script src="{{ script | relative_url }}"></script>
 
 {% if page.math %}
   <!-- MathJax -->
@@ -86,6 +84,10 @@
         {% endif %}
     {% endcase %}
   {% endif %}
+{% endif %}
+
+{% if page.mermaid %}
+  {% include mermaid.html %}
 {% endif %}
 
 {% if jekyll.environment == 'production' %}

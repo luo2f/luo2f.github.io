@@ -3,6 +3,11 @@ layout: default
 description: "你来到了没有知识的荒原 🙊"
 header-img: "img/404-bg.jpg"
 permalink: /404.html
+
+redirect_from:
+  - /norobots/
+  - /assets/
+  - /posts/
 ---
 
 
@@ -23,3 +28,7 @@ permalink: /404.html
 <script>
 	document.body.classList.add('page-fullscreen');
 </script>
+
+{% include lang.html %}
+
+<p class="lead">{{ site.data.locales[lang].not_found.statment }}</p>
