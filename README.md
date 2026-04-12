@@ -1,70 +1,83 @@
-# 执伞挽故人 · 个人博客
-
-> “Moving Forward.” —— 一位高中生的技术 & 人文博客
-
+<!-- markdownlint-disable-next-line -->
 <div align="center">
 
-[![博客访问](https://img.shields.io/badge/在线访问-cfbos.ignorelist.com-blue)][blog]
-[![主题](https://img.shields.io/badge/主题-Chirpy-brightgreen)][chirpy]
-[![作者](https://img.shields.io/badge/作者-Chaos_Floremce-orange)][author]
+  <!-- markdownlint-disable-next-line -->
+  # Chirpy Jekyll Theme
+
+  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
+
+  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
+  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
+  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
+  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
+  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
+
+  [**Live Demo** →][demo]
+
+  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
 
 </div>
 
-## 📖 博客简介
+## Features
 
-本博客是在学习英语途中顺手建立的，主要用于记录和分享以下内容：
+- **Design & UX** - Responsive layout, Dark/Light modes, Localized UI language,
+  and Dark mode images.
+- **Content Management** - Pinned posts, Hierarchical categories, Trending tags,
+  Auto-generated Table of Contents, and Last modified dates.
+- **Rich Text Support** - Syntax highlighting, Mathematical expressions, Mermaid
+  diagrams & flowcharts, and Embedded media.
+- **Interactivity & Outreach** - Built-in search, Multiple comment systems, and
+  Atom feeds.
+- **System & Optimization** - PWA support, integrated Web analytics, and
+  advanced SEO performance.
 
-- 🧠 **心理学专栏** —— *A la Croisée des Vents II | 伞心理* 系列（不具备食用价值）
-- 🏫 **校园设计** —— 多功能展示板等设计方案
-- 📝 **日常水文** —— 学习笔记、简化教程、技术随笔
-- 🎮 **游戏杂谈** —— 如 Minecraft 相关内容
-- 📜 **诗歌创作** —— Poem / Chinese 分类下的原创作品
+## Documentation
 
-> ⚠️ 访问前建议先阅读 [关于页面](/about)，博客仍在建设中，部分功能为隐藏彩蛋（如随机文章）。
+To learn how to use, develop, and upgrade the project, please refer to the
+[Wiki][wiki].
 
-## 🧩 主要内容分类
+## Contributing
 
-| 分类 | 代表文章 |
-|------|----------|
-| **心理学** | 人格理论、大五模型、MBTI批判、格式塔心理学、构造主义 |
-| **校园设计** | 校园多功能展示板设计方案 |
-| **技术入门** | Getting Started（Jekyll 教程） |
-| **语文/诗歌** | 伞系列、Poem 标签文章 |
-| **游戏** | MC 标签内容 |
+Contributions (_pull requests_, _issues_, and _discussions_) are what make the
+open-source community such an amazing place to learn, inspire, and create. Any
+contributions you make are greatly appreciated.
+For details, please refer to our [Contributing Guidelines][contribute-guide].
 
-## 🏷️ 热门标签
+## Credits
 
-`伞` `心理学` `学习` `语文` `Poem` `Chinese` `tag` `chemistry` `getting started` `MC`
+### Contributors
 
-## 📅 最近更新文章
+Thanks to [all the contributors][contributors] involved in the development of
+the project!
 
-- [校园多功能展示板设计方案](/posts/sdesign/)
-- [伞心理 - 格式塔](/posts/UmbpsyGestalt/)
-- [伞心理 - 人格发展](/posts/UmbpsyPersonalitiesDevelopment/)
-- [伞心理 - 大五模型](/posts/UmbpsyPersonalitiesFIVEmodel/)
-- [伞心理 - 人格评估](/posts/UmbpsyPersonalitiesJudge/)
+[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16&max=112)][contributors]
+<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
 
-## 👤 关于作者
+### Third-Party Assets
 
-- **昵称**：Chaos_Floremce / 执伞挽故人
-- **身份**：高中生
-- **社交**：[Twitter (X)][twitter] · [GitHub][github] · [邮箱](mailto:1375880562@qq.com)
-- **博客格言**：*傻人很简单，他们会一览无余的展露自己。但如果你像我一样，你还会相信你的眼睛，你的耳朵，你的思维吗？*
+This project is built on the [Jekyll][jekyllrb] ecosystem and integrates several
+[great libraries][lib]. It is developed using [VS Code][vscode] and tools
+provided by [JetBrains][jetbrains] under a non-commercial open-source software
+license.
 
-## 🔧 技术信息
+The avatar and favicon for the project's website are sourced from
+[ClipartMAX][clipartmax].
 
-- **博客框架**：Jekyll + Chirpy 主题
-- **功能支持**：深色/浅色模式、搜索、RSS、PWA、标签云、置顶文章
-- **代码托管**：[GitHub - luo2f][github]
+## License
 
-## 📜 版权声明
+This project is published under the [MIT License][license].
 
-除特别说明外，本博客文章采用 **CC BY 4.0** 许可证（署名即可）。
-
----
-
-[blog]: https://cfbos.ignorelist.com/
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy
-[author]: https://twitter.com/chaos_florence
-[twitter]: https://twitter.com/chaos_florence
-[github]: https://github.com/luo2f
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
+[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
+[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
+[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
+[jekyllrb]: https://jekyllrb.com/
+[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
+[demo]: https://cotes2020.github.io/chirpy-demo/
+[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
+[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
+[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
+[lib]: https://github.com/cotes2020/chirpy-static-assets
+[vscode]: https://code.visualstudio.com/
+[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy

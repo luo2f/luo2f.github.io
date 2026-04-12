@@ -4,12 +4,12 @@
 
 {% unless src contains '://' %}
   {%- capture src -%}
-    {% include media-url.html src=src %}
+    {% include media-url.html src=src subpath=page.media_subpath %}
   {%- endcapture -%}
 {% endunless %}
 
 <p>
-  <audio class="embed-audio" controls>
+  <audio class="embed-audio file" controls>
     {% assign extension = src | split: '.' | last %}
     {% assign types = extension | concat: types %}
 
