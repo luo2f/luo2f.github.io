@@ -5,6 +5,12 @@ on:
     branches:
       - docs
   workflow_call:
+    secrets:
+      GH_PAT:
+        required: true
+      BUILDER:
+        required: true
+  workflow_dispatch:
 
 jobs:
   launch:
