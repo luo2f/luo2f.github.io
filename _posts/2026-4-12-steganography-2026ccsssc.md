@@ -3,9 +3,9 @@ layout: post
 title: ccsssc 2026 steganography 极简wp
 date: 2026-04-12
 Author: Author
-tags: [tag]
+tags: [CTF]
+categories: [CTF]
 comments: true
-toc: true
 ---
 
 [赛题附件](../ctf-attach/steganography_challenge)
