@@ -1,15 +1,9 @@
 import { basic, initSidebar, initTopbar } from './modules/layouts';
-import {
-  loadImg,
-  imgPopup,
-  initClipboard,
-  loadMermaid
-} from './modules/components';
+import { loadImg, imgPopup, initClipboard } from './modules/plugins';
 
-loadImg();
-imgPopup();
+basic();
 initSidebar();
 initTopbar();
+loadImg();
+imgPopup();
 initClipboard();
-loadMermaid();
-basic();
