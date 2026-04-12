@@ -1,94 +1,70 @@
+# 执伞挽故人 · 个人博客
+
+> “Moving Forward.” —— 一位高中生的技术 & 人文博客
+
 <div align="center">
 
-  # Chirpy Jekyll Theme
-
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
-
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)][gem]&nbsp;
-  [![CI](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml/badge.svg?branch=master&event=push)][ci]&nbsp;
-  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e556876a3c54d5e8f2d2857c4f43894)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)][license]&nbsp;
-  [![996.icu](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu)
-
-  [**Live Demo →**][demo]
-
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
+[![博客访问](https://img.shields.io/badge/在线访问-cfbos.ignorelist.com-blue)][blog]
+[![主题](https://img.shields.io/badge/主题-Chirpy-brightgreen)][chirpy]
+[![作者](https://img.shields.io/badge/作者-Chaos_Floremce-orange)][author]
 
 </div>
 
-## Features
+## 📖 博客简介
 
-<details>
-  <summary>Click to expand/close details</summary>
-  &nbsp;
+本博客是在学习英语途中顺手建立的，主要用于记录和分享以下内容：
 
-- Dark / Light Theme Mode
-- Localized UI language
-- Pinned Posts on Home Page
-- Hierarchical Categories
-- Trending Tags
-- Table of Contents
-- Last Modified Date
-- Syntax Highlighting
-- Mathematical Expressions
-- Mermaid Diagrams & Flowcharts
-- Dark / Light Mode Images
-- Embed Videos
-- Disqus / Giscus / Utterances Comments
-- Built-in Search
-- Atom Feeds
-- PWA
-- Google Analytics
-- SEO & Performance Optimization
+- 🧠 **心理学专栏** —— *A la Croisée des Vents II | 伞心理* 系列（不具备食用价值）
+- 🏫 **校园设计** —— 多功能展示板等设计方案
+- 📝 **日常水文** —— 学习笔记、简化教程、技术随笔
+- 🎮 **游戏杂谈** —— 如 Minecraft 相关内容
+- 📜 **诗歌创作** —— Poem / Chinese 分类下的原创作品
 
-</details>
+> ⚠️ 访问前建议先阅读 [关于页面](/about)，博客仍在建设中，部分功能为隐藏彩蛋（如随机文章）。
 
-## Documentation
+## 🧩 主要内容分类
 
-To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
+| 分类 | 代表文章 |
+|------|----------|
+| **心理学** | 人格理论、大五模型、MBTI批判、格式塔心理学、构造主义 |
+| **校园设计** | 校园多功能展示板设计方案 |
+| **技术入门** | Getting Started（Jekyll 教程） |
+| **语文/诗歌** | 伞系列、Poem 标签文章 |
+| **游戏** | MC 标签内容 |
 
-## Contributing
+## 🏷️ 热门标签
 
-Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
-to learn, inspire, and create. Any contributions you make are greatly appreciated.
-For details, see the "[Contributing Guidelines][contribute-guide]".
+`伞` `心理学` `学习` `语文` `Poem` `Chinese` `tag` `chemistry` `getting started` `MC`
 
-## Credits
+## 📅 最近更新文章
 
-This project was built primarily with the [Jekyll][jekyllrb] ecosystem,
-[Bootstrap][bootstrap], [Font Awesome][icons], and some other [wonderful tools][lib].
-The avatar and favicon design from [Clipart Max][image].
+- [校园多功能展示板设计方案](/posts/sdesign/)
+- [伞心理 - 格式塔](/posts/UmbpsyGestalt/)
+- [伞心理 - 人格发展](/posts/UmbpsyPersonalitiesDevelopment/)
+- [伞心理 - 大五模型](/posts/UmbpsyPersonalitiesFIVEmodel/)
+- [伞心理 - 人格评估](/posts/UmbpsyPersonalitiesJudge/)
 
-Many thanks to the [contributors][contributors] who participated in the development
-and to the folks who reported bugs or shared ideas.
+## 👤 关于作者
 
-Last but not least, thanks to [JetBrains][jetbrains] for providing the _Open Source License_.
+- **昵称**：Chaos_Floremce / 执伞挽故人
+- **身份**：高中生
+- **社交**：[Twitter (X)][twitter] · [GitHub][github] · [邮箱](mailto:1375880562@qq.com)
+- **博客格言**：*傻人很简单，他们会一览无余的展露自己。但如果你像我一样，你还会相信你的眼睛，你的耳朵，你的思维吗？*
 
-## Sponsoring
+## 🔧 技术信息
 
-If you like this project or have built something through it, please consider sponsoring it, and your support would be greatly appreciated.
+- **博客框架**：Jekyll + Chirpy 主题
+- **功能支持**：深色/浅色模式、搜索、RSS、PWA、标签云、置顶文章
+- **代码托管**：[GitHub - luo2f][github]
 
-[![Ko-fi](https://img.shields.io/badge/Support_Me_on_Ko--fi-ff5e5b?logo=ko-fi&logoColor=white)][ko-fi]&nbsp;
-[![Wechat Pay](https://img.shields.io/badge/Support_Me_on_WeChat-brightgreen?logo=wechat&logoColor=white)][donation]&nbsp;
-[![Alipay](https://img.shields.io/badge/Support_Me_on_Alipay-blue?logo=alipay&logoColor=white)][donation]
+## 📜 版权声明
 
-## License
+除特别说明外，本博客文章采用 **CC BY 4.0** 许可证（署名即可）。
 
-This project is published under [MIT License][license].
+---
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
-[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[jekyllrb]: https://jekyllrb.com/
-[bootstrap]: https://getbootstrap.com/
-[icons]: https://fontawesome.com/
-[image]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
-[ko-fi]: https://ko-fi.com/coteschung/
-[donation]: https://sponsor.cotes.page/
+[blog]: https://cfbos.ignorelist.com/
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy
+[author]: https://twitter.com/chaos_florence
+[twitter]: https://twitter.com/chaos_florence
+[github]: https://github.com/luo2f
