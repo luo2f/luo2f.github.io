@@ -81,14 +81,17 @@ body {
 
 /* ---------- 2. Sidebar ---------- */
 #sidebar {
-  position: relative;
   border-right: 1px solid var(--c-border);
   transition: all var(--transition);
   -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
 }
 
-#sidebar::before {
+#sidebar .profile-wrapper {
+  position: relative;
+}
+
+#sidebar .profile-wrapper::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -97,9 +100,10 @@ body {
   filter: blur(40px) brightness(0.6) saturate(1.5);
   opacity: 0.35;
   pointer-events: none;
+  border-radius: var(--radius);
 }
 
-[data-theme="dark"] #sidebar::before {
+[data-theme="dark"] #sidebar .profile-wrapper::before {
   filter: blur(40px) brightness(0.3) saturate(1.2);
   opacity: 0.5;
 }
@@ -574,7 +578,7 @@ body {
   transform: translateY(0) scale(0.97);
 }
 
-/* Page-level transition */
+/* Page-level transition — only for main content, not topbar/search */
 @keyframes pageIn {
   from {
     opacity: 0;
@@ -586,7 +590,7 @@ body {
   }
 }
 
-#main-wrapper > * {
+#core-wrapper {
   animation: pageIn 0.4s ease-out both;
 }
 
@@ -604,7 +608,7 @@ body {
 /* Respect reduced motion preference */
 @media (prefers-reduced-motion: reduce) {
   .post-card,
-  #main-wrapper > *,
+  #core-wrapper,
   .nav-link.active::after {
     animation: none !important;
   }
