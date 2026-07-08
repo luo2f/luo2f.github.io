@@ -14,7 +14,7 @@
   --c-primary-dark: #4a3db5;
   --c-accent: #00cec9;
   --c-accent-light: #81ecec;
-  --c-bg-card: rgba(255, 255, 255, 0.85);
+  --c-bg-card: #ffffff;
   --c-bg-sidebar: #fdfdff;
   --c-text: #2d3436;
   --c-text-secondary: #636e72;
@@ -81,10 +81,7 @@ body {
 
 /* ---------- 2. Sidebar ---------- */
 #sidebar {
-  background: var(--c-bg-sidebar) !important;
   border-right: 1px solid var(--c-border);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
   transition: all var(--transition);
 }
 
@@ -160,8 +157,6 @@ body {
   border-radius: var(--radius) !important;
   padding: 1.5rem !important;
   margin-bottom: 1.25rem;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 2px 12px var(--c-shadow);
   transition: all var(--transition);
   overflow: hidden;
@@ -367,7 +362,6 @@ body {
   border: 1px solid var(--c-border) !important;
   border-radius: var(--radius) !important;
   background: var(--c-bg-card);
-  backdrop-filter: blur(12px);
   box-shadow: 0 2px 12px var(--c-shadow);
 }
 
@@ -399,8 +393,6 @@ body {
 .pagination .page-item {
   border-radius: var(--radius-sm) !important;
   border: 1px solid var(--c-border);
-  background: var(--c-bg-card);
-  backdrop-filter: blur(8px);
   transition: all var(--transition);
   font-weight: 500;
 }
@@ -418,9 +410,7 @@ body {
 
 /* ---------- 8. Footer ---------- */
 #footer {
-  background: var(--c-bg-sidebar);
   border-top: 1px solid var(--c-border);
-  backdrop-filter: blur(16px);
 }
 
 #footer a {
@@ -435,8 +425,6 @@ body {
 /* ---------- 9. Search ---------- */
 #search-input {
   border-radius: var(--radius-sm) !important;
-  border: 1px solid var(--c-border) !important;
-  background: var(--c-bg-card);
   transition: all var(--transition);
 }
 
@@ -518,17 +506,12 @@ body {
 }
 
 /* ---------- 13. Misc / Polish ---------- */
-/* Top banner (if present) */
-#topbar-wrapper {
-  background: linear-gradient(135deg, var(--c-primary), var(--c-accent));
-}
 
 /* Panel / card components */
 .panel {
   border-radius: var(--radius) !important;
   border: 1px solid var(--c-border);
   background: var(--c-bg-card);
-  backdrop-filter: blur(12px);
 }
 
 /* Rounded images globally */
