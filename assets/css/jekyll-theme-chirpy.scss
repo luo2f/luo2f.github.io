@@ -141,14 +141,7 @@ body {
 }
 
 /* ---------- 3. Main Content Area ---------- */
-#main-wrapper {
-  background: linear-gradient(135deg, #f5f3ff 0%, #f0f9ff 50%, #fdf2f8 100%);
-  min-height: 100vh;
-}
-
-[data-theme="dark"] #main-wrapper {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #1a1a2e 100%);
-}
+/* (reserved for future use — keeping Chirpy defaults) */
 
 /* ---------- 4. Post Cards ---------- */
 .post-card {
