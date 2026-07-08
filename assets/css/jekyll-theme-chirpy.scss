@@ -3,4 +3,550 @@
 
 @import 'main';
 
-/* append your custom style below */
+/* ============================================================
+   执伞挽故人. 博客自定义美化样式
+   ============================================================ */
+
+/* ---------- 0. CSS Variables ---------- */
+:root {
+  --c-primary: #6c5ce7;
+  --c-primary-light: #a29bfe;
+  --c-primary-dark: #4a3db5;
+  --c-accent: #00cec9;
+  --c-accent-light: #81ecec;
+  --c-bg-card: rgba(255, 255, 255, 0.85);
+  --c-bg-sidebar: #fdfdff;
+  --c-text: #2d3436;
+  --c-text-secondary: #636e72;
+  --c-border: rgba(108, 92, 231, 0.12);
+  --c-shadow: rgba(108, 92, 231, 0.08);
+  --radius: 14px;
+  --radius-sm: 8px;
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Scrollbar */
+  --scrollbar-thumb: var(--c-primary-light);
+  --scrollbar-track: transparent;
+}
+
+[data-theme="dark"] {
+  --c-primary: #a29bfe;
+  --c-primary-light: #6c5ce7;
+  --c-primary-dark: #c8c3f8;
+  --c-accent: #00cec9;
+  --c-accent-light: #00b5b0;
+  --c-bg-card: rgba(40, 40, 60, 0.75);
+  --c-bg-sidebar: #1e1e2e;
+  --c-text: #dfe6e9;
+  --c-text-secondary: #b2bec3;
+  --c-border: rgba(162, 155, 254, 0.15);
+  --c-shadow: rgba(0, 0, 0, 0.3);
+}
+
+/* ---------- 1. Global & Typography ---------- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+  color: var(--c-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--c-primary);
+  color: #fff;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c-primary);
+}
+
+/* ---------- 2. Sidebar ---------- */
+#sidebar {
+  background: var(--c-bg-sidebar) !important;
+  border-right: 1px solid var(--c-border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  transition: all var(--transition);
+}
+
+.site-title {
+  font-weight: 800 !important;
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, var(--c-primary), var(--c-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.site-subtitle {
+  color: var(--c-text-secondary) !important;
+  font-weight: 400;
+  font-size: 0.85rem !important;
+  letter-spacing: 0.03em;
+}
+
+/* Avatar */
+.avatar {
+  border-radius: 50% !important;
+  border: 3px solid var(--c-primary-light) !important;
+  box-shadow: 0 4px 20px var(--c-shadow);
+  transition: all var(--transition);
+}
+
+.avatar:hover {
+  transform: scale(1.05) rotate(3deg);
+  box-shadow: 0 8px 30px var(--c-shadow);
+}
+
+/* Sidebar nav */
+.nav-link {
+  position: relative;
+  color: var(--c-text-secondary) !important;
+  font-weight: 500;
+  padding: 0.4rem 0;
+  transition: color var(--transition);
+  border-radius: var(--radius-sm);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--c-primary) !important;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 24px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--c-primary), var(--c-accent));
+  border-radius: 2px;
+}
+
+/* ---------- 3. Main Content Area ---------- */
+#main-wrapper {
+  background: linear-gradient(135deg, #f5f3ff 0%, #f0f9ff 50%, #fdf2f8 100%);
+  min-height: 100vh;
+}
+
+[data-theme="dark"] #main-wrapper {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #1a1a2e 100%);
+}
+
+/* ---------- 4. Post Cards ---------- */
+.post-card {
+  background: var(--c-bg-card) !important;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius) !important;
+  padding: 1.5rem !important;
+  margin-bottom: 1.25rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 2px 12px var(--c-shadow);
+  transition: all var(--transition);
+  overflow: hidden;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px var(--c-shadow);
+  border-color: var(--c-primary-light);
+}
+
+.post-card .post-title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+  transition: color var(--transition);
+}
+
+.post-card:hover .post-title {
+  color: var(--c-primary) !important;
+}
+
+/* Pinned post */
+.post-card.pinned {
+  border-left: 4px solid var(--c-primary);
+  background: linear-gradient(135deg, var(--c-bg-card), rgba(108, 92, 231, 0.05)) !important;
+}
+
+.post-card.pinned::before {
+  content: "\f08d";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--c-primary-light);
+  font-size: 0.85rem;
+}
+
+/* Post meta tags */
+.post-meta {
+  font-size: 0.8rem !important;
+  color: var(--c-text-secondary) !important;
+}
+
+.tag-badge,
+.category-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: linear-gradient(135deg, rgba(108, 92, 231, 0.1), rgba(0, 206, 201, 0.1));
+  color: var(--c-primary);
+  border: 1px solid var(--c-border);
+  transition: all var(--transition);
+}
+
+.tag-badge:hover,
+.category-badge:hover {
+  background: var(--c-primary);
+  color: #fff;
+  border-color: var(--c-primary);
+}
+
+/* ---------- 5. Post Content ---------- */
+.post-content {
+  font-size: 1.02rem;
+  line-height: 1.85;
+  color: var(--c-text);
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.post-content h2 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--c-border);
+}
+
+.post-content h2::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--c-primary), var(--c-accent));
+}
+
+.post-content h3 {
+  font-size: 1.25rem;
+}
+
+.post-content p {
+  margin-bottom: 1.25rem;
+}
+
+.post-content a {
+  color: var(--c-primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all var(--transition);
+  font-weight: 500;
+}
+
+.post-content a:hover {
+  border-bottom-color: var(--c-primary);
+}
+
+.post-content blockquote {
+  border-left: 4px solid var(--c-primary-light);
+  background: linear-gradient(135deg, rgba(108, 92, 231, 0.05), rgba(0, 206, 201, 0.03));
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 1rem 1.25rem !important;
+  margin: 1.5rem 0;
+  color: var(--c-text-secondary);
+}
+
+.post-content code {
+  background: rgba(108, 92, 231, 0.08);
+  color: var(--c-primary-dark);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.88em;
+}
+
+[data-theme="dark"] .post-content code {
+  background: rgba(162, 155, 254, 0.15);
+  color: var(--c-primary-light);
+}
+
+.post-content pre {
+  border-radius: var(--radius) !important;
+  box-shadow: 0 4px 20px var(--c-shadow);
+  border: 1px solid var(--c-border);
+}
+
+.post-content img {
+  border-radius: var(--radius-sm);
+  box-shadow: 0 4px 16px var(--c-shadow);
+  transition: all var(--transition);
+}
+
+.post-content img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 30px var(--c-shadow);
+}
+
+.post-content ul,
+.post-content ol {
+  padding-left: 1.5rem;
+}
+
+.post-content li {
+  margin-bottom: 0.4rem;
+}
+
+.post-content li::marker {
+  color: var(--c-primary);
+}
+
+.post-content table {
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: 0 2px 12px var(--c-shadow);
+}
+
+.post-content thead {
+  background: linear-gradient(135deg, var(--c-primary), var(--c-accent));
+}
+
+.post-content thead th {
+  color: #fff !important;
+  font-weight: 600;
+  border: none !important;
+}
+
+.post-content td {
+  border-color: var(--c-border) !important;
+}
+
+.post-content tr:hover td {
+  background: rgba(108, 92, 231, 0.04);
+}
+
+/* ---------- 6. TOC (Table of Contents) ---------- */
+.toc {
+  border: 1px solid var(--c-border) !important;
+  border-radius: var(--radius) !important;
+  background: var(--c-bg-card);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 12px var(--c-shadow);
+}
+
+.toc .toc-title {
+  font-weight: 700;
+  color: var(--c-primary) !important;
+}
+
+.toc a {
+  color: var(--c-text-secondary);
+  transition: color var(--transition);
+  font-size: 0.88rem;
+}
+
+.toc a:hover,
+.toc a.active {
+  color: var(--c-primary) !important;
+}
+
+.toc ul li::before {
+  background-color: var(--c-primary-light) !important;
+}
+
+/* ---------- 7. Pagination ---------- */
+.pagination {
+  gap: 0.5rem;
+}
+
+.pagination .page-item {
+  border-radius: var(--radius-sm) !important;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-card);
+  backdrop-filter: blur(8px);
+  transition: all var(--transition);
+  font-weight: 500;
+}
+
+.pagination .page-item:hover {
+  border-color: var(--c-primary-light);
+  background: rgba(108, 92, 231, 0.05);
+}
+
+.pagination .page-item.active {
+  background: linear-gradient(135deg, var(--c-primary), var(--c-accent)) !important;
+  color: #fff !important;
+  border-color: transparent;
+}
+
+/* ---------- 8. Footer ---------- */
+#footer {
+  background: var(--c-bg-sidebar);
+  border-top: 1px solid var(--c-border);
+  backdrop-filter: blur(16px);
+}
+
+#footer a {
+  color: var(--c-primary);
+  transition: color var(--transition);
+}
+
+#footer a:hover {
+  color: var(--c-accent);
+}
+
+/* ---------- 9. Search ---------- */
+#search-input {
+  border-radius: var(--radius-sm) !important;
+  border: 1px solid var(--c-border) !important;
+  background: var(--c-bg-card);
+  transition: all var(--transition);
+}
+
+#search-input:focus {
+  border-color: var(--c-primary) !important;
+  box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.15);
+}
+
+/* ---------- 10. Buttons & Interactive ---------- */
+.btn {
+  border-radius: var(--radius-sm) !important;
+  font-weight: 600;
+  transition: all var(--transition);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--c-primary), var(--c-primary-dark)) !important;
+  border: none !important;
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(108, 92, 231, 0.4);
+}
+
+/* ---------- 11. Accessible / Print ---------- */
+@media print {
+  .post-card {
+    break-inside: avoid;
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+
+  #sidebar,
+  .toc,
+  .pagination {
+    display: none;
+  }
+}
+
+/* ---------- 12. Animations ---------- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.post-card {
+  animation: fadeInUp 0.5s ease-out both;
+}
+
+.post-card:nth-child(1) { animation-delay: 0.05s; }
+.post-card:nth-child(2) { animation-delay: 0.1s; }
+.post-card:nth-child(3) { animation-delay: 0.15s; }
+.post-card:nth-child(4) { animation-delay: 0.2s; }
+.post-card:nth-child(5) { animation-delay: 0.25s; }
+.post-card:nth-child(6) { animation-delay: 0.3s; }
+.post-card:nth-child(7) { animation-delay: 0.35s; }
+.post-card:nth-child(8) { animation-delay: 0.4s; }
+.post-card:nth-child(9) { animation-delay: 0.45s; }
+.post-card:nth-child(10) { animation-delay: 0.5s; }
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .post-card {
+    animation: none !important;
+  }
+
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- 13. Misc / Polish ---------- */
+/* Top banner (if present) */
+#topbar-wrapper {
+  background: linear-gradient(135deg, var(--c-primary), var(--c-accent));
+}
+
+/* Panel / card components */
+.panel {
+  border-radius: var(--radius) !important;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-card);
+  backdrop-filter: blur(12px);
+}
+
+/* Rounded images globally */
+img:not(.avatar):not(.emoji):not([class*="favicon"]) {
+  border-radius: var(--radius-sm);
+}
+
+/* Tooltip style for links */
+a[title] {
+  position: relative;
+}
+
+/* Notifications / alerts */
+.alert {
+  border-radius: var(--radius-sm) !important;
+}
+
+/* Code syntax highlight theme hint */
+.highlight {
+  border-radius: var(--radius) !important;
+}
