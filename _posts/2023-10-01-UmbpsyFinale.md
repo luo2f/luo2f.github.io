@@ -23,11 +23,11 @@ tags: [ 心理学 ]
 
 ### 2. 社会心理学
 
-社会心理学章节涵盖社会认知、社会态度、群体过程与人际关系等核心主题。该领域通过实验与观察方法研究个体在社会情境中的心理与行为规律。
+- [社会心理学](/posts/UmbpsySocial)
 
 ### 3. 性心理学
 
-性心理学涉及人类性心理发展、性取向、性别认同及相关行为模式的研究。该领域从生物—心理—社会综合视角理解人类性行为的多样性。
+- [性心理学](/posts/UmbpsySexology)
 
 ### 4. 认知与构造心理学
 
@@ -37,8 +37,11 @@ tags: [ 心理学 ]
     - [信息加工基本观点](/posts/UmbpsyCognitiveMessageOpinion)
     - [信息加工主要研究](/posts/UmbpsyCognitiveMessageReserch)
     - [信息加工主要方法](/posts/UmbpsyCognitiveMethod)
+  - [认知心理学经典实验](/posts/UmbpsyCognitiveexperiment)
+  - [认知心理学案例集](/posts/UmbpsyCognitiveeg%20(1))
 - [格式塔心理学](/posts/UmbpsyGestalt)
 - [构造主义心理学](/posts/UmbpsyStructural)
+- [人格心理学案例集](/posts/UmbpsyPersonalitieseg)
 
 ### 5. 实验心理学
 

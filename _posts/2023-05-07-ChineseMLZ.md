@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 高中语文古文索引（MLZ版）
 date: 2023-05-07
@@ -21,51 +21,51 @@ toc: false
 
 一、必修（10篇）
 
-1.[《子路、曾皙、冉有、公西华侍坐》（《论语》）](https://cfbos.ignorelist.com/posts/Cnbanksz)
+1.[《子路、曾皙、冉有、公西华侍坐》（《论语》）](/posts/Cnbanksz)
 
-2.[《劝学》（《荀子》）](https://cfbos.ignorelist.com/posts/Cnbankqs)
+2.[《劝学》（《荀子》）](/posts/Cnbankqs)
 
-3.[《谏逐客书》（李斯）](https://cfbos.ignorelist.com/posts/Cnbankjzks)
+3.[《谏逐客书》（李斯）](/posts/Cnbankjzks)
 
-4.[《谏太宗十思疏》（魏征）](https://cfbos.ignorelist.com/posts/Cnbankjtzs)
+4.[《谏太宗十思疏》（魏征）](/posts/Cnbankjtzs)
 
-5.[《师说》（韩愈）](https://cfbos.ignorelist.com/posts/Cnbankss)
+5.[《师说》（韩愈）](/posts/Cnbankss)
 
-6.[《阿房宫赋》（杜牧）](https://cfbos.ignorelist.com/posts/Cnbankapgf)
+6.[《阿房宫赋》（杜牧）](/posts/Cnbankapgf)
 
-7.[《六国论》（苏洵）](https://cfbos.ignorelist.com/posts/Cnbanklgl)
+7.[《六国论》（苏洵）](/posts/Cnbanklgl)
 
-8.[《答司马谏议书》（王安石）](https://cfbos.ignorelist.com/posts/Cnbankdsmj)
+8.[《答司马谏议书》（王安石）](/posts/Cnbankdsmj)
 
-9.[《赤壁赋》（苏轼）](https://cfbos.ignorelist.com/posts/Cnbankcbf)
+9.[《赤壁赋》（苏轼）](/posts/Cnbankcbf)
 
-10.[《登泰山记》（姚鼐）](https://cfbos.ignorelist.com/posts/Cnbankdtsj)
+10.[《登泰山记》（姚鼐）](/posts/Cnbankdtsj)
 
 二、选择性必修（13篇）
 
-1.《老子》四章
+1.[《老子》四章](/posts/Cnbanklzz)
 
-2.[《论语》十二章》](https://cfbos.ignorelist.com/posts/Cnbankly)
+2.[《论语》十二章](/posts/Cnbankly)
 
-3.《大学》（《礼记》）
+3.[《大学》（《礼记》）](/posts/Cnbankdx)
 
-4.《逍遥游》（《庄子》）
+4.[《逍遥游》（《庄子》）](/posts/Cnbankxyy)
 
-5,[《屈原列传节选》（司马迁）](https://cfbos.ignorelist.com/posts/Cnbankqylz)
+5.[《屈原列传节选》（司马迁）](/posts/Cnbankqylz)
 
-6,《过秦论》（上）（贾谊）
+6.[《过秦论》（上）（贾谊）](/posts/Cnbankgql)
 
-7.《陈情表》（李密）
+7.[《陈情表》（李密）](/posts/Cnbankcqb)
 
-8.《兰亭集序》（王羲之）
+8.[《兰亭集序》（王羲之）](/posts/Cnbankltx)
 
-9，《归去来兮辞（并序）》（陶渊明）
+9.[《归去来兮辞（并序）》（陶渊明）](/posts/Cnbankgqlx)
 
-10.《种树郭橐驼传》（柳宗元）
+10.[《种树郭橐驼传》（柳宗元）](/posts/Cnbankzsgt)
 
-11.《五代史伶官传序》（欧阳修）
+11.[《五代史伶官传序》（欧阳修）](/posts/Cnbankwdlg)
 
-12.《石钟山记》（苏轼）
+12.[《石钟山记》（苏轼）](/posts/Cnbankscz)
 
 13.《项脊轩志》（归有光）
 
@@ -91,68 +91,63 @@ toc: false
 
 【诗词曲】（40首）
 
-1.《静女》（《诗经》）
+1.[《静女》（《诗经》）](/posts/Cnbankljn)
 
-2.《无衣》（《诗经》）
+2.[《无衣》（《诗经》）](/posts/Cnbankwy)
 
-《离骚》（屈原）
+3.《离骚》（屈原）
 
-《涉江采芙蓉》（《古诗十九首》
-）
+4.[《涉江采芙蓉》（《古诗十九首》）](/posts/Cnbanksjcf)
 
-《短歌行》（曹操）
+5.[《短歌行》（曹操）](/posts/Cnbanksjhm)
 
-《归园田居・其一》（陶渊明）
+6.[《归园田居·其一》（陶渊明）](/posts/Cnbankgytj)
 
-《拟行路难-其四》（鲍照）
+7.《拟行路难·其四》（鲍照）
 
-《春江花月夜》（张若虚）
+8.[《春江花月夜》（张若虚）](/posts/Cnbanksjcw)
 
-《山居秋暝》（王维）
+9.[《山居秋暝》（王维）](/posts/Cnbanksjqm)
 
-《蜀道难》（李白）
+10.《蜀道难》（李白）
 
-《梦游天姥吟留别》（李白）
+11.《梦游天姥吟留别》（李白）
 
-《将进酒》（李白）
+12.《将进酒》（李白）
 
-《燕歌行》（高适）
+13.《燕歌行》（高适）
 
-《蜀相》（杜甫）
+14.《蜀相》（杜甫）
 
-《客至》
-（杜甫）
+15.《客至》（杜甫）
 
-《登高》
-（杜甫）
+16.[《登高》（杜甫）](/posts/Cnbankdgsj)
 
-《登岳阳楼》（杜甫）
+17.《登岳阳楼》（杜甫）
 
-《琵琶行》（白居易）
+18.[《琵琶行》（白居易）](/posts/Cnbankppx)
 
-《李凭箜篌引》（李贺）
+19.《李凭箜篌引》（李贺）
 
-《菩萨蛮》（温庭筠）
+20.《菩萨蛮》（温庭筠）
 
-《锦瑟》（李商隐）
+21.《锦瑟》（李商隐）
 
-《虞美人・春花秋月何时了》
-（李煜）
+22.《虞美人·春花秋月何时了》（李煜）
 
 23.《望海潮》（柳永）
 
-24.《桂枝香・金陵怀古》（王安石）
+24.《桂枝香·金陵怀古》（王安石）
 
-25.《江城子-乙卯正月二十日夜记梦》
-（苏轼）
+25.《江城子·乙卯正月二十日夜记梦》（苏轼）
 
-26.《念奴娇・赤壁怀古》（苏轼）
+26.《念奴娇·赤壁怀古》（苏轼）
 
 27.《登快阁》（黄庭坚）
 
-28.《鹊桥仙・纤云弄巧》（秦观）
+28.《鹊桥仙·纤云弄巧》（秦观）
 
-29.《苏幕遮・燎沉香》（周邦彦）
+29.《苏幕遮·燎沉香》（周邦彦）
 
 30.《声声慢》（李清照）
 
@@ -160,17 +155,17 @@ toc: false
 
 32.《临安春雨初霁》（陆游）
 
-33.《念奴娇・过洞庭》（张孝祥）
+33.《念奴娇·过洞庭》（张孝祥）
 
-34.《永遇乐・京口北固亭怀古》（辛弃疾）
+34.《永遇乐·京口北固亭怀古》（辛弃疾）
 
-35.《菩萨蛮・书江西造口壁》（辛弃疾）
+35.《菩萨蛮·书江西造口壁》（辛弃疾）
 
-36,《青玉案・元夕》（辛弃疾）
+36.《青玉案·元夕》（辛弃疾）
 
-37.《贺新郎・国脉微如缕》（刘克庄）
+37.《贺新郎·国脉微如缕》（刘克庄）
 
-38.《扬州慢・淮左名都》（姜夔）
+38.《扬州慢·淮左名都》（姜夔）
 
 ![MLZ_crr](/Cnbank/pics/mmexport1683430042499.jpg)
 ![MLZ_ctr2](/Cnbank/pics/mmexport1683432141898.jpg)
