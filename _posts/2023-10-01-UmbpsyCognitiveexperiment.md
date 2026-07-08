@@ -1,10 +1,10 @@
----
+﻿---
 layout: post
 title: A la Croisée des Vents II | 伞心理-（认知-实验）
 date: 2023-10-01
 Author: Florence
 categories: [Psychology]
-tags: [ 伞 , 心理学 ]
+tags: [ 心理学 ]
 ---
 
 ## 一、信息编码与表征的经典实验

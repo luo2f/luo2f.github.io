@@ -1,10 +1,10 @@
----
+﻿---
 layout: post
 title: A la Croisée des Vents II | 伞心理-（现代特质理论-大五1.1.1）
 date: 2023-10-01
 Author: Florence
 categories: [Psychology]
-tags: [ 伞 , 心理学 ]
+tags: [ 心理学 ]
 ---
 
 ## 一、大五人格模型的理论基础与历史发展

@@ -1,9 +1,9 @@
----
+﻿---
 layout: post
 title: 帖子markdown书写详解
 date: 2020-02-11
 Author: Author
-tags: [tag]
+tags: [ 随笔 ]
 comments: true
 toc: true
 ---

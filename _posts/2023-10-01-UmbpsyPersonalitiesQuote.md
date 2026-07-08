@@ -1,10 +1,10 @@
----
+﻿---
 layout: post
 title: A la Croisée des Vents II | 伞心理-概述
 date: 2023-10-01
 Author: Florence
 categories: [Psychology]
-tags: [ 伞 , 心理学 ]
+tags: [ 心理学 ]
 ---
 
 ## 一、人格心理学的学术定义与研究范畴

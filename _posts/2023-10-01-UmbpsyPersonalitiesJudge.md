@@ -1,10 +1,10 @@
----
+﻿---
 layout: post
 title: A la Croisée des Vents II | 伞心理-（1.2*人格评估）
 date: 2023-10-01
 Author: Florence
 categories: [Psychology]
-tags: [ 伞 , 心理学 ]
+tags: [ 心理学 ]
 ---
 
 ## 一、人格评估的学术定义与目的

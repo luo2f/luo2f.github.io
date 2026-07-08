@@ -1,9 +1,9 @@
----
+﻿---
 layout: post
 title: 谏逐客书
 date: 2000-01-01
 Author: 李斯〔先秦〕
-tags: [ 语文 , 学习 , Chinese ]
+tags: [ 语文 , 学习 ]
 categories: [Classic Chinese]
 bin: true
 ---

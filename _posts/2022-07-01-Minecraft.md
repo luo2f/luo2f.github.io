@@ -1,9 +1,9 @@
----
+﻿---
 layout: post
 title: 我的世界1.19服务器（停止维护）
 date: 2022-07-01
 Author: Florence
-tags: [ 我的世界 , MC , Sever ]
+tags: [ 我的世界 , MC , Server ]
 comments: true
 toc: false
 ---

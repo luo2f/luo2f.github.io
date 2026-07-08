@@ -1,10 +1,10 @@
----
+﻿---
 layout: post
 title: A la Croisée des Vents II | 伞心理-（荣格模型-MBTI1.1.2）
 date: 2023-10-01
 categories: [Psychology]
 Author: Florence
-tags: [ 伞 , 心理学 ]
+tags: [ 心理学 ]
 ---
 
 ## 一、荣格心理类型学的理论基础

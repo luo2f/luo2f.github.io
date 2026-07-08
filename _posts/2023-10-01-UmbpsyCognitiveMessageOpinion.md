@@ -1,10 +1,10 @@
----
+﻿---
 layout: post
 title: A la Croisée des Vents II | 伞心理-（认知-信息加工基本观点4.1.1）
 date: 2023-10-01
 Author: Florence
 categories: [Psychology]
-tags: [ 伞 , 心理学 ]
+tags: [ 心理学 ]
 ---
 
 ## 一、信息加工系统的结构组成

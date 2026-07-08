@@ -1,9 +1,9 @@
----
+﻿---
 layout: post
 title: 登泰山记
 date: 2000-01-01
 Author: 王安石
-tags: [ 语文 , 学习 , Chinese ]
+tags: [ 语文 , 学习 ]
 categories: [Classic Chinese]
 bin: true
 ---

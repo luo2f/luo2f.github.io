@@ -1,9 +1,9 @@
----
+﻿---
 layout: post
 title: 答司马谏议书
 date: 2000-01-01
 Author: 王安石
-tags: [ 语文 , 学习 , Chinese ]
+tags: [ 语文 , 学习 ]
 comments: true
 categories: [Classic Chinese]
 bin: true
