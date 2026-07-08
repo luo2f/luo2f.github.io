@@ -33,3 +33,10 @@ Temporary Items
 
 # debug file
 _site
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Build output
+assets/js/dist/
