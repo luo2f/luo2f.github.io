@@ -1,19 +1,9 @@
-
-# Created by https://www.gitignore.io/api/macos
-
-### macOS ###
+# macOS
 *.DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
 Icon
-
-
-# Thumbnails
 ._*
-
-# Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -21,18 +11,22 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/macos
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
-# debug file
-_site
+# Ruby / Bundler
+vendor/
+.bundle/
+Gemfile.lock
 
 # Node.js
 node_modules/
@@ -40,3 +34,16 @@ package-lock.json
 
 # Build output
 assets/js/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# OS
+Thumbs.db

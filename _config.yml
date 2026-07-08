@@ -16,9 +16,7 @@ timezone: Asia/Shanghai
 
 title: 执伞挽故人. # the main title
 
-SEOTitle: 伞的博客 | CF Blog
-
-tagline: A senior high’s blog # it will display as the sub-title
+tagline: A senior high's blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   "Moving Forward".
@@ -52,7 +50,7 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: G-D3R6K9S7JW #fill in your Google Analytics ID
+  id: G-D3R6K9S7JW # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
@@ -108,7 +106,7 @@ gitalk:
   clientSecret: b7a8ca62d11872c18e71eb959dd9674d555a298f    #生成的clientSecret
   repo: luo2f.github.io.comment    #仓库名称
   owner: luo2f
-  
+
 assets:
   self_host:
     enabled: # boolean, keep empty means false
@@ -128,7 +126,7 @@ baseurl: ""
 
 kramdown:
   syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneenrouge/rouge#full-options
     css_class: highlight
     # default_lang: console
     span:
@@ -189,6 +187,11 @@ exclude:
   - LICENSE
   - rollup.config.js
   - package*.json
+  - Gemfile.lock
+  - node_modules
+  - ctf-attach
+  - posts-source
+  - "*.bak"
 
 jekyll-archives:
   enabled: [categories, tags]
