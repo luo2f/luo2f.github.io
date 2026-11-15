@@ -1,0 +1,16 @@
+{%- comment -%}
+  Google Analytics（本地化版本）—— 自行托管 gtag.js，去掉 googletagmanager.com 直链。
+  gtag.js 从自身 src 的 ?id= 查询串里读测量 ID，静态服务器会忽略查询串，所以这里照样带上。
+  注意：gtag.js 运行期仍会向 google-analytics.com 上报数据，那是统计流量，不是静态资源。
+{%- endcomment -%}
+<!-- Global site tag (gtag.js) - Google Analytics (self-hosted) -->
+<script defer src="{{ '/assets/lib/gtag/gtag.js' | relative_url }}?id={{ site.google_analytics.id }}"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics.id }}');
+  });
+</script>

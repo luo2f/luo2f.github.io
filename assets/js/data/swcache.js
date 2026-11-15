@@ -39,10 +39,7 @@ const allowedDomains = [
     '{{ site.img_cdn | split: '//' | last | split: '/' | first }}',
   {% endif %}
 
-  'fonts.gstatic.com',
-  'fonts.googleapis.com',
-  'cdn.jsdelivr.net',
-  'polyfill.io'
+  /* All assets are self-hosted under /assets/lib/, no third-party domain needed. */
 ];
 
 /* Requests that include the following path will be banned */

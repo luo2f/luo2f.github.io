@@ -29,7 +29,8 @@
   --scrollbar-track: transparent;
 }
 
-[data-theme="dark"] {
+[data-theme="dark"],
+html[data-mode="dark"] {
   --c-primary: #a29bfe;
   --c-primary-light: #6c5ce7;
   --c-primary-dark: #c8c3f8;
@@ -103,7 +104,8 @@ body {
   border-radius: var(--radius);
 }
 
-[data-theme="dark"] #sidebar .profile-wrapper::before {
+[data-theme="dark"] #sidebar .profile-wrapper::before,
+html[data-mode="dark"] #sidebar .profile-wrapper::before {
   filter: blur(40px) brightness(0.3) saturate(1.2);
   opacity: 0.5;
 }
@@ -329,7 +331,8 @@ body {
   font-size: 0.88em;
 }
 
-[data-theme="dark"] .post-content code {
+[data-theme="dark"] .post-content code,
+html[data-mode="dark"] .post-content code {
   background: rgba(162, 155, 254, 0.15);
   color: var(--c-primary-light);
 }
@@ -613,10 +616,12 @@ body {
     animation: none !important;
   }
 
+  /* NOTE: never blanket `transform: none !important` on * — it kills the
+     pendant rope (inline transform) and any transform-based layout.
+     Motion is damped via duration only; transforms are left to their owner. */
   * {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
-    transform: none !important;
   }
 }
 
