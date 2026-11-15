@@ -8,7 +8,7 @@ categories: [CTF]
 comments: true
 ---
 
-[赛题附件](../ctf-attach/steganography_challenge)
+[赛题附件](/assets/attach/steganography_challenge)
 
 文件入手010打开，发现png以及被抹去的7z文件头
 还原之后得到layer2.png

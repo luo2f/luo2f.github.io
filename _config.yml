@@ -121,6 +121,7 @@ pwa:
     deny_paths:
       - "/posts-source/"  # 不缓存源文件
       - "/ctf-attach/"     # 不缓存附件
+      - "/assets/attach/"  # 不缓存文章附件
       # - "/assets/js/"    # 不缓存 JS（如果需要）
 
 paginate: 10
