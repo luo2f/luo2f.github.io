@@ -437,6 +437,10 @@
     img.style.cssText =
       'position:fixed;left:0;top:0;pointer-events:none;z-index:2147483647;' +
       'display:none;image-rendering:pixelated;-webkit-user-drag:none;' +
+      // 主题有一条全局 img{transition:all .35s ease-in-out}（_sass/addon/commons.scss），
+      // 它会把每帧写入的 transform 变成 0.35s 过渡 —— 鱼先慢慢挪、停下才追上绳子。
+      // transition 与 transform 是两个属性，transform 上的 !important 挡不住它，必须单独关掉。
+      'transition:none !important;-webkit-transition:none !important;' +
       'transform-origin:0 0;will-change:transform;width:' + S.cssW + 'px;height:' + S.cssH + 'px;';
 
     document.body.appendChild(cv);
@@ -586,7 +590,7 @@
     'transition:opacity .18s ease,transform .18s ease,background .18s ease;' +
     '-webkit-tap-highlight-color:transparent;}' +
     '#pendant-toggle:hover,#pendant-toggle:focus-visible{opacity:1;transform:translateY(-2px);background:rgba(127,127,127,.26);outline:none;}' +
-    '#pendant-toggle img{width:26px;height:26px;display:block;image-rendering:pixelated;pointer-events:none;}' +
+    '#pendant-toggle img{width:26px;height:26px;display:block;image-rendering:pixelated;pointer-events:none;transition:none !important;}' +
     '#pendant-toggle[aria-pressed="false"] img{filter:grayscale(1);opacity:.55;}' +
     'html[data-mode="dark"] #pendant-toggle,html[data-theme="dark"] #pendant-toggle{background:rgba(255,255,255,.1);}' +
     'html[data-mode="dark"] #pendant-toggle:hover,html[data-theme="dark"] #pendant-toggle:hover{background:rgba(255,255,255,.2);}' +
